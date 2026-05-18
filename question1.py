@@ -1,3 +1,4 @@
+# Note1: key   = apple ,Guess = ppppp must return YGRRR now is wrong
 class Wordle:
     def __init__(self,Key:str,number_of_guesses:int,guesses:list):
         self.key = list(Key)
